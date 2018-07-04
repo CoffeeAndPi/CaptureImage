@@ -8,4 +8,4 @@ Use Raspberry Pi Zero W and Camera Module to take pictures and save to AWS S3 bu
 * aws configure
 
 # Add to crontab
-*/2 * * * * sh /home/pi/scripts/capture-image.sh > /dev/null 2>&1
+*/2 * * * * sh /home/pi/CaptureImage/capture-image.sh > /dev/null 2>&1
